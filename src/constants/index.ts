@@ -27,6 +27,8 @@ import {
   starbucks,
   tesla,
   carrent,
+  jobit,
+  tripguide,
   threejs,
 } from "../assets";
 
@@ -167,6 +169,52 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
+    name: "RAG Chatbot",
+    description:
+      "AI-Powered Portfolio Analytics Platform - A modern, full-stack application combining React/Next.js frontend with FastAPI backend featuring RAG (Retrieval-Augmented Generation) capabilities for intelligent document analysis and querying.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "rag",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: carrent,
+    sourceCodeLink: "https://github.com/Gadhe0Shubham/rag_chatbot",
+  },
+  {
+    name: "PVG College Chatbot",
+    description:
+      "AI-Powered College Enquiry Chatbot for Pune Vidyarthi Griha's College of Engineering & SS Dhamankar Institute of Management. Provides instant answers to student queries about admissions, courses, facilities, and campus information.",
+    tags: [
+      {
+        name: "ai",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "chatbot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nlp",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    sourceCodeLink: "https://github.com/Gadhe0Shubham/PVG_Chatbot",
+  },
+  {
     name: "Prescripto",
     description:
       "Full-stack healthcare appointment platform built with MERN stack. Features role-based dashboards for patients, doctors, and admins with integrated payment processing via Stripe and Razorpay for secure appointment bookings.",
@@ -188,7 +236,7 @@ const projects: TProject[] = [
         color: "blue-text-gradient",
       },
     ],
-    image: carrent,
+    image: tripguide,
     sourceCodeLink: "https://github.com/",
   },
 ];
